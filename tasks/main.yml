@@ -1,5 +1,5 @@
 - name: install packages
-  with_items:
+  loop:
     - lsb-release
     - figlet
     - update-motd
@@ -10,18 +10,22 @@
      - motd
 
 - name: disable files
-  with_items: '{{ motd_disable }}'
+  loop: '{{ motd_disable }}'
+  loop_control:
+    label: '/etc/update-motd.d/{{ item }}'
   file:
-    path: /etc/update-motd.d/{{ item }}
+    path: '/etc/update-motd.d/{{ item }}'
     state: absent
   tags:
      - motd
 
 - name: write files
-  with_items: '{{ motd_files }}'
+  loop: '{{ motd_files }}'
+  loop_control:
+    label: '/etc/update-motd.d/{{ item.dest }}'
   template:
     src: '{{ item.template }}'
-    dest: /etc/update-motd.d/{{ item.dest }}
+    dest: '/etc/update-motd.d/{{ item.dest }}'
     mode: u=rwx,g=rx,o=rx
   tags:
      - motd
