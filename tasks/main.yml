@@ -1,31 +1,35 @@
-- name: install packages
+# Standards: 0.1
+---
+- name: Install required packages
   loop:
     - lsb-release
     - figlet
     - update-motd
   package:
-    name: '{{ item }}'
+    name: "{{ item }}"
     state: present
   tags:
-     - motd
+    - motd
 
-- name: disable files
-  loop: '{{ motd_disable }}'
+- name: Disable defined files
+  loop: "{{ motd_disable }}"
   loop_control:
-    label: '/etc/update-motd.d/{{ item }}'
+    label: "/etc/update-motd.d/{{ item }}"
   file:
-    path: '/etc/update-motd.d/{{ item }}'
+    path: "/etc/update-motd.d/{{ item }}"
     state: absent
   tags:
-     - motd
+    - motd
 
-- name: write files
-  loop: '{{ motd_files }}'
+- name: Write defined files
+  loop: "{{ motd_files }}"
   loop_control:
-    label: '/etc/update-motd.d/{{ item.dest }}'
+    label: "/etc/update-motd.d/{{ item.dest }}"
   template:
-    src: '{{ item.template }}'
-    dest: '/etc/update-motd.d/{{ item.dest }}'
+    src: "{{ item.template }}"
+    dest: "/etc/update-motd.d/{{ item.dest }}"
     mode: u=rwx,g=rx,o=rx
   tags:
-     - motd
+    - motd
+
+...
