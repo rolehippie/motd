@@ -1,9 +1,13 @@
+# Standards: 0.1
+---
+# @var motd_disable:description: List of modules to disable
 motd_disable:
   - 10-help-text
   - 50-motd-news
   - 80-livepatch
   - 97-overlayroot
 
+# @var motd_files:description: List of modules to override
 motd_files:
   - template: updates-available.j2
     dest: 90-updates-available
@@ -13,3 +17,5 @@ motd_files:
     dest: 98-fsck-at-reboot
   - template: reboot-required.j2
     dest: 98-reboot-required
+
+...
