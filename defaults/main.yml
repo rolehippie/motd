@@ -1,4 +1,4 @@
-# Standards: 0.1
+# Standards: 1.2
 ---
 # @var motd_disable:description: List of modules to disable
 motd_disable:
