@@ -1,6 +1,6 @@
 # motd
 
-[![Source Code](https://img.shields.io/badge/github-source%20code-blue?logo=github&logoColor=white)](https://github.com/rolehippie/motd) [![Build Status](https://img.shields.io/drone/build/rolehippie/motd/master?logo=drone)](https://cloud.drone.io/rolehippie/motd) [![License: Apache-2.0](https://img.shields.io/github/license/rolehippie/motd)](https://github.com/rolehippie/motd/blob/master/LICENSE) 
+[![Source Code](https://img.shields.io/badge/github-source%20code-blue?logo=github&logoColor=white)](https://github.com/rolehippie/motd) [![Testing Build](https://github.com/rolehippie/motd/workflows/testing/badge.svg)](https://github.com/rolehippie/motd/actions?query=workflow%3Atesting) [![Readme Build](https://github.com/rolehippie/motd/workflows/readme/badge.svg)](https://github.com/rolehippie/motd/actions?query=workflow%3Areadme) [![Galaxy Build](https://github.com/rolehippie/motd/workflows/galaxy/badge.svg)](https://github.com/rolehippie/motd/actions?query=workflow%3Agalaxy) [![License: Apache-2.0](https://img.shields.io/github/license/rolehippie/motd)](https://github.com/rolehippie/motd/blob/master/LICENSE) 
 
 Ansible role to configure a custom message of the day. 
 
