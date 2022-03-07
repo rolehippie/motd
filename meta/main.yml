@@ -20,6 +20,8 @@
 # None
 # @end
 galaxy_info:
+  role_name: motd
+  namespace: rolehippie
   author: Thomas Boerger
   description: Ansible role to configure a custom message of the day
   license: Apache-2.0
