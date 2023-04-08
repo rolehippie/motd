@@ -7,7 +7,7 @@
 # [![Readme Workflow](https://github.com/rolehippie/motd/actions/workflows/readme.yml/badge.svg)](https://github.com/rolehippie/motd/actions/workflows/readme.yml)
 # [![Galaxy Workflow](https://github.com/rolehippie/motd/actions/workflows/galaxy.yml/badge.svg)](https://github.com/rolehippie/motd/actions/workflows/galaxy.yml)
 # [![License: Apache-2.0](https://img.shields.io/github/license/rolehippie/motd)](https://github.com/rolehippie/motd/blob/master/LICENSE)
-# [![Ansible Role](https://img.shields.io/ansible/role/51433)](https://galaxy.ansible.com/rolehippie/motd)
+# [![Ansible Role](https://img.shields.io/badge/role-rolehippie.motd-blue)](https://galaxy.ansible.com/rolehippie/motd)
 #
 # Ansible role to configure a custom message of the day.
 #
