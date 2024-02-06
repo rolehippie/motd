@@ -4,7 +4,7 @@
     - lsb-release
     - figlet
     - update-motd
-  package:
+  ansible.builtin.package:
     name: "{{ item }}"
     state: present
   tags:
@@ -14,7 +14,7 @@
   loop: "{{ motd_disable }}"
   loop_control:
     label: "/etc/update-motd.d/{{ item }}"
-  file:
+  ansible.builtin.file:
     path: "/etc/update-motd.d/{{ item }}"
     state: absent
   tags:
@@ -24,7 +24,7 @@
   loop: "{{ motd_files }}"
   loop_control:
     label: "/etc/update-motd.d/{{ item.dest }}"
-  template:
+  ansible.builtin.template:
     src: "{{ item.template }}"
     dest: "/etc/update-motd.d/{{ item.dest }}"
     mode: u=rwx,g=rx,o=rx
