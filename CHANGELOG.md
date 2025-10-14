@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.1.0](https://github.com/rolehippie/motd/compare/v2.0.0...v2.1.0) (2025-10-14)
+
+
+### Features
+
+* apply new repo structure and update linting ([fd703e5](https://github.com/rolehippie/motd/commit/fd703e53d24cbb4f755b45280cd1ff0c35d30a7a))
+
 ## [2.0.0](https://github.com/rolehippie/motd/compare/v1.0.0...v2.0.0) (2024-02-12)
 
 
