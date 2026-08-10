@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.3.0](https://github.com/rolehippie/motd/compare/v2.2.0...v2.3.0) (2026-08-10)
+
+### Dependencies
+
+* **minor:** update dependency pipx:ansible-doctor to v8.4.0 ([#55](https://github.com/rolehippie/motd/issues/55)) ([6147eff](https://github.com/rolehippie/motd/commit/6147eff5530392bdf0fb820443bab1e30d23aadd))
+* **patch:** update dependency python to v3.14.7 ([#53](https://github.com/rolehippie/motd/issues/53)) ([134cc28](https://github.com/rolehippie/motd/commit/134cc281cbf0607f13152ac0beea2f588f1a821a))
+
 ## [2.2.0](https://github.com/rolehippie/motd/compare/v2.1.0...v2.2.0) (2026-07-27)
 
 ## [2.1.0](https://github.com/rolehippie/motd/compare/v2.0.0...v2.1.0) (2025-10-14)
