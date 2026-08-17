@@ -1,5 +1,14 @@
 # Changelog
 
+## [2.4.0](https://github.com/rolehippie/motd/compare/v2.3.0...v2.4.0) (2026-08-17)
+
+### Dependencies
+
+* **minor:** update dependency pipx:ansible-lint to v26.8.0 ([#58](https://github.com/rolehippie/motd/issues/58)) ([a6d9e28](https://github.com/rolehippie/motd/commit/a6d9e28151e4639f66d5192d6cc14ce38017a53d))
+* **minor:** update dependency pipx:molecule to v26.8.0 ([#59](https://github.com/rolehippie/motd/issues/59)) ([2573e1b](https://github.com/rolehippie/motd/commit/2573e1b719d814cf8d4469860ad882a391697651))
+* **patch:** update dependency pipx:ansible-core to v2.21.3 ([#56](https://github.com/rolehippie/motd/issues/56)) ([e858298](https://github.com/rolehippie/motd/commit/e858298576b37508c792d8dfe5aa1fd170f88fe0))
+* **patch:** update dependency pre-commit to v4.6.2 ([#57](https://github.com/rolehippie/motd/issues/57)) ([0a0b66f](https://github.com/rolehippie/motd/commit/0a0b66fa78167e7cfc621030ecdc852dd62d0d0b))
+
 ## [2.3.0](https://github.com/rolehippie/motd/compare/v2.2.0...v2.3.0) (2026-08-10)
 
 ### Dependencies
