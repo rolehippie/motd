@@ -1,5 +1,11 @@
 # Changelog
 
+## [2.4.1](https://github.com/rolehippie/motd/compare/v2.4.0...v2.4.1) (2026-08-31)
+
+### Dependencies
+
+* **patch:** update dependency pipx:ansible-doctor to v8.4.1 ([#60](https://github.com/rolehippie/motd/issues/60)) ([ba01cce](https://github.com/rolehippie/motd/commit/ba01ccef7809fa328048a8c3e4b02fccb224498a))
+
 ## [2.4.0](https://github.com/rolehippie/motd/compare/v2.3.0...v2.4.0) (2026-08-17)
 
 ### Dependencies
